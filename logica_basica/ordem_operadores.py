@@ -1,7 +1,7 @@
 #Toda linguagem de programação segue uma ordem de precedência dos operadores
     #em python não seria diferente 
 
-## 1º Operadores Aritméticos : 
+## 1º Operadores Aritméticos : Usados para realizar cálculos matemáticos, são aplicados quando precisamos manipular valores numéricos em expressões matemáticas ou em programas que envolvem cálculos.
     # Ordem de precedência(leitura): 
     # () → Parênteses
     # ** → Exponenciação
@@ -21,7 +21,7 @@ print(f'Calculou a divisão primeiro: {resultado3}')
 #Em caso de haver mais de um numero da mesma ordem de precedência(+,- ou *,/,//,%) 
     # o calculo seguira da esquerda para a direita ex: 1+5-2 será (1+5) depois (6-2)
 
-#2º Operadores de Comparação:
+#2º Operadores de Comparação: Verificam relações entre valores, são usados em estruturas condicionais (if, while) para tomar decisões com base em comparações lógicas.
     # < → Menor
     # <= → Menor ou igual
     # > → Maior

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PYTHON
 
 *O Python é uma linguagem de programação extremamente versátil. É utilizada em diversas áreas, como ciência de dados, desenvolvimento web, automação e inteligência artificial.*
@@ -16,3 +17,6 @@
 
 
 ***Para mais linguagens:*** [Curso em video](https://www.youtube.com/@cursoemvideo/playlists)
+=======
+# python
+>>>>>>> 24e45bf700c9320c2eca8f9e98ef8a70cada536a
