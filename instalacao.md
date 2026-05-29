@@ -10,6 +10,7 @@
 -----
 :warning: 
  **Importante: marque a opção "Add Python to PATH" durante a instalação.**
+ 
  *Erros que podem ocorrer caso ele não esteja no PATH:*
 
 - **Comando não reconhecido:** Comandos como python ou pip acabam não sendo reconhecidos.
