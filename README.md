@@ -3,7 +3,8 @@
 
 *O Python é uma linguagem de programação extremamente versátil. É utilizada em diversas áreas, como ciência de dados, desenvolvimento web, automação e inteligência artificial.*
 
-## Alguns pontos que fazem python ser uma linguagem mais "tranquila" de se aprender:
+---
+## :round_pushpin:Alguns pontos que fazem python ser uma linguagem mais "tranquila" de se aprender:
 
 - Sintaxe simples: pouco verbosa, ao contrário de outras lingugens, mais próxima da linguagem humana.
 
@@ -12,6 +13,11 @@
 - Multiplataforma: funciona em Windows, macOS, Linux e até dispositivos móveis.
 
 - Comunidade ativa: milhões de desenvolvedores compartilham tutoriais e projetos.
+
+---
+## Documentação
+
+:paperclip:*Explicações na pasta docs*
 
 ***Para informações mais detalhadas:***[Documentação](https://docs.python.org/pt-br/3.14/)
 

@@ -7,7 +7,7 @@
 - Escolha a versão mais recente (recomendo a versão estável 3.x).
 
 - *Execute o instalador.*
------
+---
 :warning: 
  **Importante: marque a opção "Add Python to PATH" durante a instalação.**
 
@@ -18,9 +18,11 @@
 - **Problemas com pip:** O gerenciador de pacotes pip também não funcionará diretamente no terminal. Isso impede instalar bibliotecas como NumPy, Pandas ou Flask.
 - **Integração com VS Code:** O VS Code pode não detectar o interpretador Python automaticamente, dificultando a execução de programas e depuração.
 
------
+---
+
 - *Finalize clicando em Install Now.*
 
+---
 
 ## Baixar VS Code
 
