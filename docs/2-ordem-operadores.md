@@ -12,7 +12,7 @@
 
 *Usados para realizar cálculos matemáticos, são aplicados quando precisamos manipular valores numéricos em expressões matemáticas ou em programas que envolvem cálculos.*
 
-- Ordem de precedência(leitura): 
+1. Ordem de precedência(leitura): 
     1. () → Parênteses
     2. ** → Exponenciação
     3. *, /, //, % → Multiplicação, Divisão, Divisão inteira e Módulo
@@ -24,14 +24,14 @@
 
 *Verificam relações entre valores, são usados em estruturas condicionais (if, while...) para tomar decisões com base em comparações lógicas.*
 
-- Ordem de precedência(leitura): 
+1. Ordem de precedência(leitura): 
 
-    1. **<**  | Menor          |
-    2. **<=** | Menor ou igual |
-    3. **>**  | Maior          |
-    4. **>=** | Maior ou igual |
-    5. **==** | Igual          |
-    6. **!=** | Diferente      |
+    1. ( **<** ) Menor
+    2. ( **<=** ) Menor ou igual
+    3. ( **>** ) Maior          
+    4. ( **>=** ) Maior ou igual 
+    5. ( **==** ) Igual          
+    6. ( **!=** ) Diferente      
 
 ---
 
@@ -39,10 +39,13 @@
 
 *Servem para controlar o fluxo lógico de decisões. Eles são usados principalmente para combinar ou inverter resultados booleanos.*
 
-- Ordem : 
-    1. and → verdadeiro se ambos forem verdadeiros. Ex.:confirmação de senhas e usuario.
-    2. or → verdadeiro se pelo menos um for verdadeiro. Ex.: Envio de mensagem. num_telefone: False,email: True. envia a mensagem para o email.
-    3. not → inverte o valor lógico. True -> False/False -> True. Ex.: lâmpada
+1. Ordem : 
+    1. and → verdadeiro se ambos forem verdadeiros.
+        > Ex.:confirmação de senhas e usuario.
+    2. or → verdadeiro se pelo menos um for verdadeiro.
+        >Ex.: Envio de mensagem. ``` num_telefone or email``` envia a mensagem para o email mesmo que o num_telefone seja falso.
+    3. not → inverte o valor lógico. True -> False/False -> True.
+       >Ex.: lâmpada
 
 ---
 
@@ -50,15 +53,15 @@
 
 - **4º - Operadores de Atribuição:** *são usados para atribuir valores a variáveis, podendo incluir operações junto da atribuição. Funcionan como "shorthand" ao atualizar valores sem precisar reescrever a variável.*
 
-    | =   |atribuição simples |
-    |atribuição com operação: calcula -e salva o resultado na variavel|
-    | +=  | soma um valor à variável e reatribui o resultado.
-    | -=  | subtrai um valor da variável.
-    | *=  | multiplica a variável.
-    | /=  | divide a variável.
-    | //= | faz a divisão inteira.
-    | %=  | calcula o resto da divisão.
-    | **= | eleva a variável a uma potência e reatribui.
+    - ( = )atribuição simples |
+    - Atribuição com operação: calcula -e salva o resultado na variavel|
+    - ( += ) soma um valor à variável e reatribui o resultado.
+    - ( -= ) subtrai um valor da variável.
+    - ( *= ) multiplica a variável.
+    - ( /= ) divide a variável.
+    - ( //= ) faz a divisão inteira.
+    - ( %= ) calcula o resto da divisão.
+    - ( **= ) eleva a variável a uma potência e reatribui.
 
 > ex.: k = 10/ k+=2 #k vale 12 apos o calculo
 
